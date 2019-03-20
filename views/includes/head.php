@@ -8,7 +8,10 @@
 <meta name="Reply-to" content="<?= WEBSITE_AUTHOR_MAIL?>">
 <meta name="Copyright" content="<?= WEBSITE_AUTHOR?>">
 <meta name="Language" content="<?= WEBSITE_LANGUAGE?>">
-
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
 <!-- Open Graph tags -->
 <meta property="og:type"              content="website" />
 <meta property="og:url"               content="<?= WEBSITE_FACEBOOK_URL?>" />
@@ -17,7 +20,8 @@
 <meta property="og:image"             content="<?= WEBSITE_FACEBOOK_IMAGE?>" />
 
 <!-- CSS Styles -->
-<link rel="stylesheet" href="<?= PATH?>assets/styles/css/styles.css"/>
+<link href="<?= PATH?>assets/styles/css/bootstrap.min.css" rel="stylesheet">
+<link href="<?= PATH?>assets/styles/css/hero.css" rel="stylesheet">
 
 
 <!-- JS Files -->
