@@ -6,6 +6,8 @@
 </head>
 <body>
     <?php include_once 'views/includes/header.php'?>
+    <div class="main">
+    <h3> Liste films : </h3>
     <table>
     <?php
     $reponse = $db->query('SELECT nom FROM movies;');
@@ -15,6 +17,7 @@
     }
     ?>
     </table>
+</div>
     <footer>
         <?php include_once 'views/includes/footer.php'?>
     </footer>

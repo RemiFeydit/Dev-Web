@@ -7,8 +7,8 @@
 
 <body>
     <?php include_once 'views/includes/header.php'?>
-    <div id='test'>
-        <h2>Ajout de film : </h2>
+    <div class='search'>
+    <h3> Ajout film : </h3>
             <form action= "?page=results2" method="post">
             <p>
                 Nom film :

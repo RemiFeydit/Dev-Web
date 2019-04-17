@@ -7,7 +7,9 @@
 
 <body>
     <?php include_once 'views/includes/header.php'?>
-    <div id='test'>
+    
+    <div class='search'>
+    <h3> Recherche film : </h3>
         Recherche par année : 
             <form action="?page=results" method="post">
             <p>

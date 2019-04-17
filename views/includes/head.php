@@ -22,6 +22,7 @@
 <!-- CSS Styles -->
 <link href="<?= PATH?>assets/styles/css/bootstrap.min.css" rel="stylesheet">
 <link href="<?= PATH?>assets/styles/css/hero.css" rel="stylesheet">
+<link rel="icon" href="<?= PATH?>assets/styles/img/favicon.ico"/>
 
 
 <!-- JS Files -->
